@@ -1,0 +1,437 @@
+body{
+
+    background: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Muli', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: subpixel-antialiased;
+    /*color: #abacae;*/
+    line-height: 25px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow-x: hidden;
+    padding-top: 70px;
+}
+
+h1, h2, h3{
+    font-size: 38px;
+    color: #222;
+    font-weight: 700;
+    font-family: 'Muli', sans-serif;
+}
+p {
+    font-weight: 400;
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+    font-size: 15px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #085bd9;
+    cursor: pointer;
+  }
+  .topbtn button:hover{
+      background: #000;
+      color: #fff;
+  }
+/*--------section header start---------*/
+
+.nav-link{
+    text-transform: uppercase;
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #085bd9 !important;
+}
+
+@media only screen and (max-width: 600px) {
+   .home_nav{
+     padding-left: 25px;
+   }
+}
+
+.navbar {
+    padding: 0;
+}
+
+/*--------section header end---------*/
+
+/*--------section banners start---------*/
+#hero-area {
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(90deg,#FF6A2B 0%,#ffab07 100%);
+}
+
+#hero-area .contents .head-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#hero-area .contents .head-para{
+    margin-bottom: 30px;
+}
+
+#hero-area .contents {
+    padding: 90px 0 50px;
+}
+
+.hero-item {
+    background: #fff;
+    margin: 15px 0;
+    padding: 30px;
+    border-radius: 4px;
+    text-align: left;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.1);
+    color:#000;
+}
+
+.btn-common {
+    background-color: #085bd9;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.btn-common:hover {
+    color: #fff;
+    background-color: #222;
+    box-shadow: 0 6px 22px rgba(0,0,0,.1);
+}
+/*--------section banners end---------*/
+
+.client-data h4{
+    font-size: 25px;
+}
+
+.get-benefits{
+    background: linear-gradient(90deg,#FF6A2B 0%,#ffab07 100%);
+    color: #fff;
+}
+
+.get-benefits h2{
+color: #fff;
+}
+
+/*--------section testimonials start---------*/
+.testimonial{
+    padding: 0 15px;
+}
+.testimonial-review{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 23px 35px 40px;
+    position: relative;
+    text-align: left;
+}
+.testimonial-review:before{
+    content: "";
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #fff;
+    position: absolute;
+    top:100%;
+}
+.testimonial-review > p{
+    color:#777;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.pic{
+    margin-top: 30px;
+}
+.pic img{
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+.testimonial-title{
+    margin-top: 30px;
+    color:#000;
+    font-weight: 700;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.testimonial-title small{
+    display: block;
+    margin:5px 0 20px 0;
+    color:#000;
+}
+.owl-theme .owl-controls{
+    margin-top: 30px;
+}
+.owl-theme .owl-controls .owl-page span{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 1px solid transparent;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #dc005a;
+    border: 1px solid #fff;
+}
+@media screen and (max-width: 990px){
+    .testimonial{
+        padding: 0;
+    }
+}
+/*--------section testimonials end---------*/
+
+
+/*--------section services start---------*/
+.section-title {
+    font-size: 30px;
+    color: #222;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+.services-item {
+    background: #fff;
+    margin: 15px 0;
+    padding: 30px;
+    border-radius: 4px;
+    text-align: left;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.1);
+    height:90%;
+}
+
+.services-item .services-content h3 {
+    font-size: 18px;
+    color: #585b60;
+}
+.services-item .services-content h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.services-item .icon i {
+    font-size: 30px;
+    color: #085bd9;
+    margin-bottom: 1rem;
+}
+
+.services-item .icon1 i {
+    font-size: 50px;
+    color: #085bd9;
+    margin-bottom: 1rem;
+}
+
+.bg-gray {
+    background: #f9f9f9;
+}
+/*--------section services end---------*/
+
+/*--------section contact_form start---------*/
+
+.text-contact{
+    color: #085bd9;
+}
+
+.add_text{
+    color: #000;
+}
+
+.fa-building,.fa-phone-square,.fa-envelope,.fa-map-marker{
+    color: #085bd9;
+}
+/*--------section contact_form end---------*/
+
+
+/*--------section footer start---------*/
+.footer-area{
+    background-color: #000;
+    color: #fff;
+}
+.footer-area a{ 
+    color:#fff;
+}
+.footer-top {
+    padding: 60px 0px 20px;
+}
+.footer-widget {
+    margin-bottom: 30px;
+}
+.footer-logo p {
+    margin-bottom: 20px;
+}
+.footer-logo h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.footer-logo span {
+    display: block;
+    margin-bottom: 20px;
+}
+.footer-logo ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.footer-widget h4.widget-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    margin: 30px 0px 50px;
+    font-weight: 600;
+    position: relative;
+    color: #fff;
+}
+.footer-widget h4.widget-title:before {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 5px;
+    height: 12px;
+    background: #085bd9;
+    content: "";
+}
+.footer-contact ul li {
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 40px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.footer-contact ul li i {
+    height: 25px;
+    width: 25px;
+    font-size: 14px;
+    border: 1px solid #085bd9;
+    text-align: center;
+    line-height: 24px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+}
+.footer-contact ul li:last-child {
+    margin-bottom: 0px;
+}
+.footer-menu ul li {
+    line-height: 37px;
+    padding-left: 30px;
+    position: relative;
+}
+.footer-menu ul li:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "\f101";
+    font-family: fontawesome;
+}
+.footer-menu ul li:hover:before {
+    left: 5px;
+    color: #085bd9;
+}
+.newsletter p {
+    margin-bottom: 20px;
+}
+.newsletter input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    padding-left: 15px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+.newsletter button {
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    background: #085bd9;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.newsletter button:hover {
+    background: #323131;
+    color: #fff;
+}
+
+.footer-bootom p {
+	color: #fff;
+}
+.footer-bootom a {
+	color: #fff;
+}
+/*--------section footer end---------*/
+
+.sidenav {
+
+  height: 100%; /* 100% Full-height */
+
+  width: 0; /* 0 width - change this with JavaScript */
+
+  position: fixed; /* Stay in place */
+
+  z-index: 1099; /* Stay on top */
+
+  top: 0;
+
+  left: 0;
+
+  overflow-x: hidden; /* Disable horizontal scroll */
+
+  padding-top: 30px; /* Place content 60px from the top */
+
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+}
+
+/* Position and style the close button (top right corner) */
+
+.sidenav .closebtn {
+
+  position: absolute;
+
+  top: 0;
+
+  right: 25px;
+
+  font-size: 36px;
+
+  margin-left: 50px;
+
+}
+
+ 
